@@ -9,8 +9,8 @@ app.use(cors())
 const authRoutes=require('./Routes/authRoutes')
 const blogRoutes=require('./Routes/blogRoutes')
 
-// app.use('/api/auth',authRoutes)
-// app.use('/api/blogs',blogRoutes)
+app.use('/api/auth',authRoutes)
+app.use('/api/blogs',blogRoutes)
 mongoose.connect(process.env.MONGO_URI,{
     useNewUrlParser: true,
     useUnifiedTopology: true,

@@ -1,7 +1,7 @@
 const mongoose =require('mongoose')
 const blogSchema=new mongoose.Schema({
     title: String,
-    content:string,
+    content:String,
     author:{type:mongoose.Schema.Types.ObjectId,ref:'User'},
     createdAt:{type:Date,default:Date.now}
 })
