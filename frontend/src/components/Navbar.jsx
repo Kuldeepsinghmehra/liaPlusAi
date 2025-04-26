@@ -12,8 +12,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white p-4 flex justify-between items-center">
-      <Link to="/" className="text-lg font-semibold">RBAC Blog</Link>
+    <nav className="bg-purple-700 text-white p-4 flex justify-between items-center">
+      <Link to="/" className="text-lg font-semibold ">RBAC Blog</Link>
       <div className="space-x-4">
         {!user ? (
           <>

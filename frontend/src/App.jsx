@@ -5,6 +5,7 @@ import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import BlogList from './Pages/BlogList';
 import AdminDashboard from './Pages/AdminDashboard';
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/admin" element={<AdminDashboard />} />
-        <Route path="*" element={<div className="p-4 text-center text-red-500">404 - Page Not Found</div>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
