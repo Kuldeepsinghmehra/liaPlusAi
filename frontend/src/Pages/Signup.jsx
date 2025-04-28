@@ -71,7 +71,6 @@ const Signup = () => {
         </button>
       </form>
 
-      {/* Toast Container to show notifications */}
       <ToastContainer />
     </div>
   );

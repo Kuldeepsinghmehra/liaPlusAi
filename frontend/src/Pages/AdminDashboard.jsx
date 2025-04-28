@@ -4,7 +4,7 @@ import axios from 'axios';
 const AdminDashboard = () => {
   const [blogs, setBlogs] = useState([]);
   const [form, setForm] = useState({ title: '', content: '' });
-  const [editingId, setEditingId] = useState(null); // track if editing
+  const [editingId, setEditingId] = useState(null); 
 
   const fetchBlogs = () => {
     axios.get('/api/blogs')
