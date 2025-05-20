@@ -96,7 +96,7 @@ const AdminDashboard = () => {
         </div>
       </form>
 
-      <h2 className="text-2xl font-semibold mb-4 text-blue-600">Existing Blogs</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-blue-600 text-center">Existing Blogs</h2>
       <div className="space-y-4">
         {blogs.map(blog => (
           <div key={blog._id} className="bg-white p-4 shadow rounded-lg flex justify-between items-center">

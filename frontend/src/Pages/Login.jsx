@@ -26,7 +26,7 @@ const Login = () => {
         <h2 className="text-xl font-bold text-center">Login</h2>
         <input type="email" placeholder="Email" required value={email} onChange={(e) => setEmail(e.target.value)} className="w-full px-3 py-2 border rounded" />
         <input type="password" placeholder="Password" required value={password} onChange={(e) => setPassword(e.target.value)} className="w-full px-3 py-2 border rounded" />
-        <button className="w-full bg-blue-600 text-white py-2 rounded">Login</button>
+        <button className="w-full bg-purple-700 text-white py-2 rounded">Login</button>
       </form>
     </div>
   );

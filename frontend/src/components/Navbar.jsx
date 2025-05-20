@@ -24,7 +24,7 @@ const Navbar = () => {
           <>
             {user.role === 'admin' && <Link to="/admin" className="hover:underline">Admin</Link>}
             <span className="text-sm">Hello, {user.name}</span>
-            <button onClick={handleLogout} className="bg-red-500 px-2 py-1 rounded text-sm">Logout</button>
+            <button onClick={handleLogout} className="px-2 py-1 rounded text-sm">Logout</button>
           </>
         )}
       </div>
